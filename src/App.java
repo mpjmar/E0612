@@ -7,7 +7,7 @@ public class App {
 		for (int i = 0; i < 8000; i++) {
 			System.out.print((char)((int)(Math.random() * (126 - 32 + 1) + 32)));
 
-			if (linea++ == 60) {
+			if (linea++ == 100) {
 				linea = 0;
 				Thread.sleep(50);
 				System.out.println();
